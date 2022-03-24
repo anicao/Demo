@@ -20,6 +20,8 @@
 	    <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
 	    <sonar.language>java</sonar.language>
 	    <sonar.coverage.exclusions>**/model/**/*,**/domain/**/*,**/repository/**/*,**/Main*</sonar.coverage.exclusions>
+	    <sonar.organization>nica</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	    <property name="sonar.java.binaries" value="target"/>
 	</properties>
 	<dependencies>
