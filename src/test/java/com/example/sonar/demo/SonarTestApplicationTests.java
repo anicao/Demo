@@ -11,5 +11,4 @@ class SonarTestApplicationTests {
 	void contextLoads() {
 	  assertTrue(true);
 	}
-
 }
